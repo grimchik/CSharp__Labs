@@ -26990,11 +26990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\Lab1_maui.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\CSharp_Labs\\Lab1_maui.csproj",
       "projectName": "Lab1_maui",
-      "projectPath": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\Lab1_maui.csproj",
+      "projectPath": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\CSharp_Labs\\Lab1_maui.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\CSharp_Labs\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

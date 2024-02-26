@@ -12,51 +12,51 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Lab1_maui
-build_property.ProjectDir = C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\
+build_property.ProjectDir = C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/App.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/AppShell.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CalculatorPage.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/CalculatorPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.CalculatorPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CalculatorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CalculatorPage.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/DataBasePage.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/DataBasePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.DataBasePage.xaml
 build_metadata.AdditionalFiles.TargetPath = DataBasePage.xaml
 build_metadata.AdditionalFiles.RelativePath = DataBasePage.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/HomePage.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/IntegralCalculation.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/IntegralCalculation.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.IntegralCalculation.xaml
 build_metadata.AdditionalFiles.TargetPath = IntegralCalculation.xaml
 build_metadata.AdditionalFiles.RelativePath = IntegralCalculation.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/Resources/Styles/Colors.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/Resources/Styles/Styles.xaml]
+[C:/Users/Александр/source/repos/Lab1_maui/Lab1_maui/CSharp_Labs/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Lab1_maui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

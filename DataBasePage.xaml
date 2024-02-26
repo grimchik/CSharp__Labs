@@ -4,9 +4,6 @@
              x:Class="Lab1_maui.DataBasePage"
              Title="DataBasePage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Picker  x:Name="picker" Title ="Coctails" VerticalOptions="Center" HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>

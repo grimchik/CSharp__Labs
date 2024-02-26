@@ -1,1 +1,1 @@
-C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\Lab1_maui.csproj;x64
+C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\Lab1_maui.csproj;x64

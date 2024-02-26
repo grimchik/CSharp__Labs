@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0VJmXx+iAlR7CKUQwO0KCFylcygzJDvnIhNuzRofUIvL6LAvjb7dXCPKIYr1o7Vh9kHqTTGrXsqJCioU2O0MvQ==",
+  "dgSpecHash": "eepHSNZTIphtF20CpwmlUT0qVWOmRVDGybVKedCaSN4aoWywaPV5bn/BiJ3ESnIrMza1WQrqgGXqkq8RjCnIdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\Lab1_maui.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Lab1_maui\\Lab1_maui\\CSharp_Labs\\Lab1_maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

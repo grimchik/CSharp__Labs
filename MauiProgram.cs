@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using Lab1_maui.Entities;
+using Lab1_maui.Services;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Lab1_maui;
 
@@ -6,8 +9,11 @@ public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()
 	{
-		var builder = MauiApp.CreateBuilder();
-		builder
+        var builder = MauiApp.CreateBuilder();
+
+		builder.Services.AddTransient<IDbService, SQLiteService>();
+		builder.Services.AddTransient<DataBasePage>();
+        builder
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
@@ -16,7 +22,7 @@ public static class MauiProgram
 			});
 
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
 
 		return builder.Build();
