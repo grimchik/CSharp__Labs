@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1_maui.IntegralCalculation"
+             Title="IntegralCalculation">
+    <ContentPage.Resources>
+        <Style TargetType="Button" x:Key="ButtonStart">
+            <Setter Property="TextColor" Value="GhostWhite" />
+            <Setter Property="BackgroundColor" Value="GreenYellow" />
+            <Setter Property="CornerRadius" Value="25"/>
+        </Style>
+        <Style TargetType="Button" x:Key="ButtonCancel">
+            <Setter Property="TextColor" Value="GhostWhite" />
+            <Setter Property="BackgroundColor" Value="Red" />
+            <Setter Property="CornerRadius" Value="25"/>
+        </Style>
+    </ContentPage.Resources>
+    <VerticalStackLayout  Spacing ="100" HorizontalOptions="Center" VerticalOptions="Center">
+        <Label x:Name="Value" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Grid HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <ProgressBar Grid.Row="0" Grid.Column="0" x:Name ="Prgs" Progress="0.0" ProgressColor="LightGreen" HorizontalOptions="Center" WidthRequest="150"/>
+            <Label x:Name="ProgressLabel" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" Text=""/>
+        </Grid>
+        <Grid HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Text="Start" Clicked="StartButton_Clicked"  HorizontalOptions="Center" Style="{StaticResource ButtonStart }"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Cancel" Clicked="CancelButton_Clicked"  HorizontalOptions="Center" Style="{StaticResource ButtonCancel }"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

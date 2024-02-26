@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1_maui.CalculatorPage"
+             WidthRequest="400"
+             HeightRequest="600">
+    
+    <ContentPage.Resources>
+        <Style TargetType="Button" x:Key="Button">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="BackgroundColor" Value="LightSkyBlue" />
+        </Style>
+        <Style TargetType="Button" x:Key="DigitalButton">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="BackgroundColor" Value="White" />
+        </Style>
+        <Style TargetType="Button" x:Key="EqualsButtonStyle">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="BackgroundColor" Value="Orange" />
+        </Style>
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout Spacing="15"
+                     Padding="20">
+        <Label Text="Calculator"
+               FontSize="20"/>
+        <Entry x:Name="Value"
+               Text=""
+               IsReadOnly="True"
+               Placeholder="Entry..."/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="2" Text="%" Clicked="PercentButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="4" Grid.Column="3" Text="=" Clicked="ResultButton_Clicked" Style="{StaticResource EqualsButtonStyle}"/>
+            <Button Grid.Row="3" Grid.Column="3" Text="+" Clicked="SumButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="2" Grid.Column="3" Text="-" Clicked="SubtractionButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="1" Grid.Column="3" Text="*" Clicked="MultiplyButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="0" Grid.Column="3" Text="/" Clicked="DivisionButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="4" Grid.Column="0" Text="+/-" Clicked="PlusMinusButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="0" Grid.Column="0" Text="C" Clicked="ClearButton_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="7" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="8" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="1" Grid.Column="2" Text="9" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="2" Grid.Column="0" Text="4" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="5" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="6" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="3" Grid.Column="0" Text="1" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="2" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="3" Grid.Column="2" Text="3" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="4" Grid.Column="1" Text="0" Clicked="DigitalButtonClicked" Style="{StaticResource DigitalButton}"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="log(x)" Clicked="ButtonLogX_Clicked" Style="{StaticResource Button}"/>
+            <Button Grid.Row="4" Grid.Column="2" Text="," Clicked="ButtonComma_Clicked" Style="{StaticResource Button}"/>
+        </Grid>
+
+
+
+    </VerticalStackLayout>
+
+
+
+</ContentPage>

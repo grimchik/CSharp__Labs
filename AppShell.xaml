@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Lab1_maui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Lab1_maui"
+    FlyoutBehavior="Flyout"
+    >
+
+    <ShellContent Title="Home" 
+                  Icon="home.png" 
+                  ContentTemplate="{DataTemplate local:HomePage}"/>
+    <ShellContent Title="Calculator" 
+                  Icon="calculator.png" 
+                  ContentTemplate="{DataTemplate local:CalculatorPage}"/>
+    <ShellContent Title="IntegralCalculator" 
+                  Icon="integral.png" 
+                  ContentTemplate="{DataTemplate local:IntegralCalculation}"/>
+    <ShellContent Title="DataBase" 
+                  Icon="database.png" 
+                  ContentTemplate="{DataTemplate local:DataBasePage}"/>
+</Shell>
