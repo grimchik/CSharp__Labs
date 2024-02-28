@@ -13,13 +13,13 @@ namespace Lab1_maui.Services
     public class SQLiteService : IDbService
     {
         private SQLiteConnection database;
-        public IEnumerable<Ingredient> GetCoctailsIngredients(int id)
+        public IEnumerable<Ingredient> GetCocktailsIngredients(int id)
         {
             return database.Table<Ingredient>().Where(ingredient => ingredient.CourseId == id).ToList();
         }
-        public IEnumerable<Coctail> GetAllCoctails()
+        public IEnumerable<Cocktail> GetAllCocktails()
         {
-            return database.Table<Coctail>().ToList();
+            return database.Table<Cocktail>().ToList();
         }
         public void Init()
         {
@@ -27,27 +27,27 @@ namespace Lab1_maui.Services
             string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string dbFile = Path.Combine(path, "mydbSQLite.db3");
             database = new SQLiteConnection(dbFile,SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
-            database.DropTable<Coctail>();
+            database.DropTable<Cocktail>();
             database.DropTable<Ingredient>();
-            database.CreateTable<Coctail>();
+            database.CreateTable<Cocktail>();
            
-            List<Coctail> coctails = new List<Coctail>
+            List<Cocktail> coctails = new List<Cocktail>
             {
-            new Coctail { Name = "Coctail1", Type = "Type1" },
-            new Coctail { Name = "Coctail2", Type = "Type2" },
+            new Cocktail { Name = "Cocktail1", Type = "Type1" },
+            new Cocktail { Name = "Cocktail2", Type = "Type2" },
             };
             foreach (var coctail in coctails)
             {
                 database.Insert(coctail);
             }
             database.CreateTable<Ingredient>();
-            for (int i = 1; i <= 2; i++) 
+            for (int i = 0; i <= 1; i++) 
             {
                 for (int j = 1; j <= 5; j++) 
                 {
                     Ingredient ingredient = new Ingredient
                     {
-                        Name = $"Ingredient{j} for Coctail{i}",
+                        Name = $"Ingredient{j} for Cocktail{i+1}",
                         Volume = $"{j * 10} ml",
                         CourseId = i 
                     };

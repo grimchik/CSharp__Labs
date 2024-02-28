@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-26T13:32:49.426</Modified>
+      <Modified>2024-02-28T06:29:24.645</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-26T13:32:48.682</Modified>
+      <Modified>2024-02-28T06:29:22.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Lab1_maui.runtimeconfig.json">
       <PackagePath>Lab1_maui.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Lab1_maui.dll">
       <PackagePath>Lab1_maui.dll</PackagePath>
-      <Modified>2024-02-26T13:32:46.748</Modified>
+      <Modified>2024-02-28T06:29:19.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Lab1_maui.exe</PackagePath>
-      <Modified>2024-02-26T13:32:46.773</Modified>
+      <Modified>2024-02-28T06:29:19.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Александр\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -943,7 +943,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Александр\source\repos\Lab1_maui\Lab1_maui\CSharp_Labs\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Lab1_maui.deps.json">
       <PackagePath>Lab1_maui.deps.json</PackagePath>
-      <Modified>2024-02-26T13:32:49.177</Modified>
+      <Modified>2024-02-28T06:29:24.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Lab1_maui.Entities
 {
-    [Table("Coctails")]
-    public class Coctail
+    [Table("Cocktails")]
+    public class Cocktail
     {
         [PrimaryKey, AutoIncrement, Indexed]
         public int Id { get; set; }

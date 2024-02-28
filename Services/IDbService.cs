@@ -9,8 +9,8 @@ namespace Lab1_maui.Services
 {
     public interface IDbService
     {
-        IEnumerable<Coctail> GetAllCoctails();
-        IEnumerable<Ingredient> GetCoctailsIngredients(int id);
+        IEnumerable<Cocktail> GetAllCocktails();
+        IEnumerable<Ingredient> GetCocktailsIngredients(int id);
         void Init();
 
     }

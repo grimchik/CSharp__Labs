@@ -4,6 +4,7 @@
              x:Class="Lab1_maui.DataBasePage"
              Title="DataBasePage">
     <VerticalStackLayout>
-        <Picker  x:Name="picker" Title ="Coctails" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Picker  x:Name="picker" Title ="Cocktails" SelectedIndexChanged = "picker_SelectedIndexChanged" VerticalOptions="Start" HorizontalOptions="Fill"  WidthRequest="200"/>
+        <CollectionView x:Name="Collection" WidthRequest="200" HeightRequest="150"/>
     </VerticalStackLayout>
 </ContentPage>
